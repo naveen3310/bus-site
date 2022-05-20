@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@500;700&display=swap');
 
 :root {
-    --bg-color: #dd2e2e;
+    --bg-color: #f76060;
     --prmy-txt-color: #fff;
-    --hvr-color: #7c0f0f;
+    --hvr-color: #f76060;
 }
 
 * {
@@ -11,6 +11,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
 }
 
 .hero-section {
@@ -130,6 +134,8 @@
 }
 
 .heading {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     color: var(--bg-color);
 
@@ -183,10 +189,146 @@
     }
 }
 
-.advantages {
+.second-section {
     position: relative;
     top: 100%;
     width: 100%;
     height: 100vh;
+    background-color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+}
+
+.flex img {
+    width: 800px;
+    height: 500px;
+}
+
+.time-travel h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--bg-color);
+}
+
+.time-travel p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.third-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--hvr-color)
+}
+
+.third-section h2 {
+    position: relative;
+    text-align: center;
+    color: var(--prmy-txt-color);
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+.third-section .wallet,
+.explore {
+    width: 100px;
+    height: 100px;
+}
+
+.advantage-icon {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wallet h3,
+.explore h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.wallet p,
+.explore p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.fourth-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    color: var(--bg-color);
+}
+
+.fourth-section h1 {
+    text-align: center;
+
+}
+
+
+
+.fourth-section img {
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+
+/* there we go
+ */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 65%;
+    flex-direction: row;
+}
+
+.flex-items {
+    width: 300px;
+    height: 300px;
+    margin: 11px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    height: 100vh;
     background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 5rem;
+}
+
+.about p {
+    font-size: 2rem;
+}
+
+.about-container {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.about-us {
+    margin-bottom: 5rem;
 }
