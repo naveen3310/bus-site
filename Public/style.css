@@ -28,7 +28,8 @@ body {
     top: 0;
     left: 0;
     height: auto;
-    min-height: 100vh;
+    max-height: 100vh;
+    min-height: 45rem;
 }
 
 .container {
@@ -42,7 +43,8 @@ body {
     top: 0;
     left: 0;
     max-width: 100%;
-    height: 35rem;
+    min-height: 35rem;
+    max-height: 100vh;
 }
 
 .header .cont-hdr {
@@ -433,6 +435,7 @@ body {
     }
 
     .wave {
+        margin-top: 4rem;
         left: 0%;
         bottom: 0%;
     }
@@ -442,7 +445,7 @@ body {
     }
 
     .sec-head {
-        margin-top: 7.5rem;
+        /* margin-top: 2rem; */
     }
 
     .flex {
